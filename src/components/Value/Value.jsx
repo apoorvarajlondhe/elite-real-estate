@@ -50,13 +50,13 @@ const Value = () => {
                 >
                   <AccordionItemHeading>
                     <AccordionItemButton className=" flexCenter accordionButton">
-                      {/* <AccordionItemState>
+                      <AccordionItemState>
                         {({ expanded }) =>
                           expanded
                             ? setClassName("expanded")
                             : setClassName("collapsed")
                         }
-                      </AccordionItemState> */}
+                      </AccordionItemState>
                       <div className="flexCenter icon">{item.icon}</div>
                       <span className="primaryText">{item.heading}</span>
                       <div className="flexCenter icon">
